@@ -2,13 +2,13 @@
 // 	'workTime': null,
 // 	'interval': null
 // };
-var WORKMIN =2;
-var BREAKMIN =1;
+var WORKMIN =25;
+var BREAKMIN =5;
 var WORKCOLOR= '#ff9311';
 var BREAKCOLOR = '#87aa1e';
 var currColor = WORKCOLOR;
-var min = 0;
-var sec = 10;
+var min = WORKMIN;
+var sec = 0;
 //run or pause
 var timerStatus=false;
 //break or work
