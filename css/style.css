@@ -1,0 +1,47 @@
+body{
+	text-align:center;
+	-webkit-app-region: drag;
+	margin-top:20px;
+	-webkit-user-select:none;
+}
+
+#startandpause_btn{
+	width:120px;
+}
+
+#main{
+	margin-bottom: 10px;
+}
+
+#timer{
+	margin:0 auto;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+#timer_str{
+	font-size: 50px;
+}
+
+button{
+	-webkit-app-region: no-drag;	
+}
+
+#close{
+	position:absolute;
+	right: 5px;
+	top:5px;
+	width:25px;
+	height:25px;
+	line-height: 25px;
+}
+
+#close{
+	background-color: #d1dbbd;
+}
+
+.alert{
+	height:35px;
+	line-height: 35px;	
+	font-size: 30px;
+}

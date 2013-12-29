@@ -1,0 +1,19 @@
+{
+  "name": "pomo",
+  "main": "index.html",
+  "window": {
+    "title": "node-webkit demo",
+    // "icon": "link.png",
+    // "toolbar": true,
+    // "frame": false,
+    "width": 320,
+    "height": 500,
+    // "position": "mouse",
+    "min_width": 320,
+    "min_height": 500,
+    "max_width": 320,
+    "max_height": 500,
+    "frame":false,
+    "toolbar": false
+  }
+}

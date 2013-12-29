@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Focus</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="css/style.css" type="text/css" rel="stylesheet" />
+</head>
+<body class="container">
+	<div id="close" ><span class="glyphicon glyphicon-remove"></span></div>
+	<h1 style="color:#193441;">FOCUS</h1>
+	<div id="main">
+		<canvas id="timer" width=250 height=250></canvas>  
+		<!-- <div id="timer"> 
+			<span id="timer_str"></span>
+		</div> -->
+		<button type="button" class="btn btn-lg btn-primary" id="startandpause_btn">START</button>
+		<button type="button" class="btn btn-lg btn-danger" id="restart_btn">RESTART</button>
+	</div>
+	<div class="break_note" style="display:none;">Take a Break!</div>
+	<div class="work_note" style="display:none;">Let's begin to Work!</div>
+	<audio id="ring" src="ring.ogg" type="audio/ogg"></audio>
+</body>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js/"></script>
+<script src="js/script.js"></script>
+</html>
